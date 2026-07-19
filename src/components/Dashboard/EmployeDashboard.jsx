@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./others/header";
+import TaskListNumber from "./others/Tasklist";
 const EmployeDashboard=()=>{
     return(
-        <div>
-            
+        <>
           <Header/>  
-        </div>
+          <TaskListNumber/>
+        </>
     )
 }
 export default EmployeDashboard
