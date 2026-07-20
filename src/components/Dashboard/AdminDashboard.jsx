@@ -1,4 +1,4 @@
-import React from "react";
+import AllTask from "./others/AllTask";
 import Header from "./others/header";
 
 const AdminDashboard = () => {
@@ -69,6 +69,7 @@ const AdminDashboard = () => {
                     </div>
                 </form>
             </div>
+            <AllTask />
         </div>
     );
 };

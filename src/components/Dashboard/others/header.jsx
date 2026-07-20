@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = ({ userName = "Shubh", showWave = false }) => {
     return (
         <div className="flex w-full items-start justify-between">
