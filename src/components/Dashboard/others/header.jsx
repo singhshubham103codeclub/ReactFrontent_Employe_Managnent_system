@@ -1,4 +1,4 @@
-const Header = ({ userName = "Shubh", showWave = false }) => {
+const Header = ({ userName = "Shubh", showWave = true }) => {
     return (
         <div className="flex w-full items-start justify-between">
             <h1 className="text-2xl font-semibold leading-tight text-white">

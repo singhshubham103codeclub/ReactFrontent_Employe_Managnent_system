@@ -4,7 +4,7 @@ import Header from "./others/header";
 const AdminDashboard = () => {
     return (
         <div className="min-h-screen w-full bg-[#111111] px-7 py-6 text-white">
-            <Header userName="Sarthak" showWave />
+            <Header userName="shubh" showWave />
 
             <div className="mt-7 bg-[#1c1c1c] px-5 py-6">
                 <form
