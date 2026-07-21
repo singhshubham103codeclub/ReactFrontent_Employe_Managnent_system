@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-const Login =()=>{
+const Login =(props)=>{
+    console.log(props)
     const[input1,setInput1]=useState('')
      const[input2,setInput2]=useState('')
     const submitHandler=(e)=>{

@@ -261,7 +261,8 @@ const Admin = [
 
  export const getLocalStorag =()=>{
     
-    const data= localStorage.getItem('empolyees')
-    console.log(JSON.parse(data))
+    const employee= JSON.parse(localStorage.getItem('empolyees'))
+    const admin= JSON.parse(localStorage.getItem('Admin'))
+    console.log(employee,admin)
  }
  
