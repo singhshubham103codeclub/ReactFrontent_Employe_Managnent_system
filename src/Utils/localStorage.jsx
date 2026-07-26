@@ -263,6 +263,7 @@ const Admin = [
     
     const employee= JSON.parse(localStorage.getItem('empolyees'))
     const admin= JSON.parse(localStorage.getItem('Admin'))
-    console.log(employee,admin)
+    // console.log(employee,admin)
+     return { employee, admin }
  }
  
