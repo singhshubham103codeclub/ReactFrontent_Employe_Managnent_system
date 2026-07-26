@@ -5,7 +5,7 @@ export const AuthContext = createContext();
 
 
 const AuthProvider = ({ children }) => {
-  const [userData,setUserData]=useState(null)
+  const [userData,setUserData]=useState({ employee: [], admin: [] })
   useEffect(()=>{
     const {employee,admin}= getLocalStorag()
       // console.log(employee,admin)
