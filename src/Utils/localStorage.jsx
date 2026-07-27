@@ -1,8 +1,16 @@
+
 const employees = [
   {
     id: 1,
+    firstName: "Aarav",
     email: "employee1@example.com",
     password: "123",
+    taskNumbers: {
+      active: 1,
+      newTask: 1,
+      completed: 1,
+      failed: 1,
+    },
     tasks: [
       {
         active: true,
@@ -12,7 +20,7 @@ const employees = [
         taskTitle: "Design Login Page",
         taskDescription: "Create a responsive login page using React.",
         taskDate: "2026-07-21",
-        category: "Frontend"
+        category: "Frontend",
       },
       {
         active: false,
@@ -22,7 +30,7 @@ const employees = [
         taskTitle: "Fix Navbar Bug",
         taskDescription: "Resolve mobile navigation issue.",
         taskDate: "2026-07-18",
-        category: "Bug Fix"
+        category: "Bug Fix",
       },
       {
         active: false,
@@ -32,14 +40,22 @@ const employees = [
         taskTitle: "API Integration",
         taskDescription: "Connect login API with frontend.",
         taskDate: "2026-07-19",
-        category: "Backend"
-      }
-    ]
+        category: "Backend",
+      },
+    ],
   },
+
   {
     id: 2,
+    firstName: "Vivaan",
     email: "employee2@example.com",
     password: "123",
+    taskNumbers: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 1,
+    },
     tasks: [
       {
         active: true,
@@ -49,7 +65,7 @@ const employees = [
         taskTitle: "Create Dashboard UI",
         taskDescription: "Develop employee dashboard layout.",
         taskDate: "2026-07-21",
-        category: "Frontend"
+        category: "Frontend",
       },
       {
         active: true,
@@ -59,7 +75,7 @@ const employees = [
         taskTitle: "Attendance Module",
         taskDescription: "Implement attendance table.",
         taskDate: "2026-07-22",
-        category: "Feature"
+        category: "Feature",
       },
       {
         active: false,
@@ -69,7 +85,7 @@ const employees = [
         taskTitle: "Profile Page",
         taskDescription: "Complete employee profile page.",
         taskDate: "2026-07-17",
-        category: "Frontend"
+        category: "Frontend",
       },
       {
         active: false,
@@ -79,14 +95,22 @@ const employees = [
         taskTitle: "Dark Mode",
         taskDescription: "Implement dark theme support.",
         taskDate: "2026-07-18",
-        category: "UI"
-      }
-    ]
+        category: "UI",
+      },
+    ],
   },
+
   {
     id: 3,
+    firstName: "Aditya",
     email: "employee3@example.com",
     password: "123",
+    taskNumbers: {
+      active: 2,
+      newTask: 1,
+      completed: 2,
+      failed: 1,
+    },
     tasks: [
       {
         active: true,
@@ -96,7 +120,7 @@ const employees = [
         taskTitle: "Build REST API",
         taskDescription: "Create CRUD APIs for tasks.",
         taskDate: "2026-07-21",
-        category: "Backend"
+        category: "Backend",
       },
       {
         active: false,
@@ -106,7 +130,7 @@ const employees = [
         taskTitle: "MongoDB Schema",
         taskDescription: "Design employee schema.",
         taskDate: "2026-07-15",
-        category: "Database"
+        category: "Database",
       },
       {
         active: true,
@@ -116,7 +140,7 @@ const employees = [
         taskTitle: "JWT Authentication",
         taskDescription: "Secure APIs with JWT.",
         taskDate: "2026-07-22",
-        category: "Security"
+        category: "Security",
       },
       {
         active: false,
@@ -126,7 +150,7 @@ const employees = [
         taskTitle: "Password Reset",
         taskDescription: "Implement forgot password feature.",
         taskDate: "2026-07-19",
-        category: "Authentication"
+        category: "Authentication",
       },
       {
         active: false,
@@ -136,14 +160,22 @@ const employees = [
         taskTitle: "Optimize Queries",
         taskDescription: "Improve MongoDB performance.",
         taskDate: "2026-07-16",
-        category: "Database"
-      }
-    ]
+        category: "Database",
+      },
+    ],
   },
+
   {
     id: 4,
+    firstName: "Rohan",
     email: "employee4@example.com",
     password: "123",
+    taskNumbers: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 1,
+    },
     tasks: [
       {
         active: true,
@@ -153,7 +185,7 @@ const employees = [
         taskTitle: "Write Unit Tests",
         taskDescription: "Create tests for authentication.",
         taskDate: "2026-07-21",
-        category: "Testing"
+        category: "Testing",
       },
       {
         active: false,
@@ -163,7 +195,7 @@ const employees = [
         taskTitle: "Code Review",
         taskDescription: "Review frontend pull request.",
         taskDate: "2026-07-18",
-        category: "Review"
+        category: "Review",
       },
       {
         active: true,
@@ -173,7 +205,7 @@ const employees = [
         taskTitle: "Bug Verification",
         taskDescription: "Verify reported dashboard bugs.",
         taskDate: "2026-07-22",
-        category: "QA"
+        category: "QA",
       },
       {
         active: false,
@@ -183,14 +215,22 @@ const employees = [
         taskTitle: "Performance Test",
         taskDescription: "Run load testing on APIs.",
         taskDate: "2026-07-20",
-        category: "Testing"
-      }
-    ]
+        category: "Testing",
+      },
+    ],
   },
+
   {
     id: 5,
+    firstName: "Arjun",
     email: "employee5@example.com",
     password: "123",
+    taskNumbers: {
+      active: 2,
+      newTask: 1,
+      completed: 2,
+      failed: 1,
+    },
     tasks: [
       {
         active: true,
@@ -200,7 +240,7 @@ const employees = [
         taskTitle: "Deploy Application",
         taskDescription: "Deploy latest build to staging.",
         taskDate: "2026-07-21",
-        category: "DevOps"
+        category: "DevOps",
       },
       {
         active: false,
@@ -210,7 +250,7 @@ const employees = [
         taskTitle: "Docker Setup",
         taskDescription: "Containerize backend service.",
         taskDate: "2026-07-17",
-        category: "DevOps"
+        category: "DevOps",
       },
       {
         active: true,
@@ -220,17 +260,17 @@ const employees = [
         taskTitle: "CI/CD Pipeline",
         taskDescription: "Configure GitHub Actions.",
         taskDate: "2026-07-22",
-        category: "Automation"
+        category: "Automation",
       },
       {
         active: false,
         newTask: false,
-        completed:false,
+        completed: false,
         failed: true,
         taskTitle: "Server Monitoring",
         taskDescription: "Set up uptime monitoring.",
         taskDate: "2026-07-19",
-        category: "Infrastructure"
+        category: "Infrastructure",
       },
       {
         active: false,
@@ -240,12 +280,11 @@ const employees = [
         taskTitle: "SSL Configuration",
         taskDescription: "Configure HTTPS certificate.",
         taskDate: "2026-07-16",
-        category: "Security"
-      }
-    ]
-  }
+        category: "Security",
+      },
+    ],
+  },
 ];
-
 const Admin = [
   {
     id: 1,
